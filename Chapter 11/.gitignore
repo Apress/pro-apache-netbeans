@@ -1,0 +1,14 @@
+target/
+nbactions.xml
+/nbproject/
+.antlr/
+
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.classpath
+.factorypath
+.project
+.settings/
+.vscode/

@@ -1,0 +1,15 @@
+/*
+ * model file sample
+ */
+namespace org.basic.sample
+
+import foo.bar
+
+// asset
+@foo("arg", 2)
+abstract asset SampleAsset identified by assetId{
+  o String assetId
+  o Integer [] cols
+  o ProductType type
+  --> SampleParticipant owner
+}
